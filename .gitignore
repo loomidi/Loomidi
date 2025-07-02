@@ -1,0 +1,54 @@
+# .gitignore
+# This file specifies intentionally untracked files to ignore when using Git.
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.env
+.env
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints
+*.egg-info/
+build/
+dist/
+
+# Operating System Files
+.DS_Store
+.vscode/        # VS Code settings (optional, if you want to share workspace settings)
+.idea/          # IntelliJ/PyCharm settings
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Data files (if not versioned)
+*.csv
+*.json
+*.sqlite
+*.db
+*.dat
+
+# Compiled eBPF objects (usually generated, not source)
+*.o
+*.ko
+*.bpf.o
+
+# Jupyter Notebook specific
+.ipynb_checkpoints
+
+# Sensitive information (e.g., API keys, credentials)
+*.key
+*.pem
+.envrc
+secrets/
+
